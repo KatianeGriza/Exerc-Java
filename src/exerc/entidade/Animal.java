@@ -1,17 +1,17 @@
 package exerc.entidade;
 
-public class Animal{
+public class Animal {
 	private int id;
 	private String nome;
 	private String especie;
 	private String habitat;
-	
-	
+
 	public Animal() {
 	}
+
 	@Override
 	public String toString() {
-		return "Contato [id=" + id + ", nome=" + nome + ", especie=" + especie +", habitat=" + habitat + "]";
+		return "Contato [id=" + id + ", nome=" + nome + ", especie=" + especie + ", habitat=" + habitat + "]";
 	}
 
 	public Animal(String nome, String especie, String habitat) {
@@ -52,5 +52,4 @@ public class Animal{
 		this.habitat = habitat;
 	}
 
-	
 }
